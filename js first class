@@ -1,0 +1,37 @@
+let a=20;
+let b=25.25;
+let c="Piyush"
+let d;
+let e=null
+let f={name:"Devesh",weight:90,height:5.9,}
+// console.log("Value of a is ",a,"value of b is ",b,"and their sum is ",a+b)
+console.log(`value of a is ${a} and value of b is ${b} and their sum is ${a+b}`)
+console.log(typeof(a));
+console.log(typeof(c));
+console.log(typeof(d));
+console.log(typeof(e));
+console.log(typeof(f));
+console.log(f.name,f.weight,f.height);
+let marks=[80,85,96,74,63]
+console.log(typeof(marks))
+console.log(marks[2],marks[4]);
+let g=true;
+console.log(typeof(g));
+
+let h=new Date ()
+console.log(h.getHours(),":",h.getMinutes(),":",h.getSeconds())
+console.log(typeof(h))
+
+j=50;
+k="50";
+console.log(j==k);
+console.log(j===k);
+
+//ternary operator(true or false)
+let abhishek=50;
+(abhishek==58)?console.log("han abhishek ka weight hai"):console.log("jan kar ho da");
+
+let first="chocolate";
+let second="kurkure";
+let o=!(first=="chocolate"||second=="paties");
+console.log(o)
