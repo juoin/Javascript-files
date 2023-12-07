@@ -1,0 +1,36 @@
+
+let maths=99;
+let science=98;
+let hindi=97;
+let cs=96;
+let engish=-100;
+percentage=(maths+science+hindi+cs+engish)/5
+console.log(percentage)
+if(percentage<=100&&percentage>=90){
+    console.log("A grade")
+}
+else if(percentage<90&&percentage>=80){
+    console.log("B grade")
+}
+else if(percentage<80&&percentage>=70){
+    console.log("C grade")
+}
+else if(percentage<70&&percentage>=60){
+    console.log("D grade")
+}
+else if(percentage<60&&percentage>=30){
+    console.log("you passed luckily")
+}
+else{
+    console.log("Ivalid percentage")
+}
+
+
+let a=80;
+let b=40;
+if(!(a==80 || b==80)){
+    console.log("hi")
+}
+else{
+    console.log("hillo")
+}
